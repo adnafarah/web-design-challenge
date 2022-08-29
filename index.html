@@ -4,7 +4,8 @@
         
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<title> Title </title>
+<link rel="stylesheet" href=""styles.css" />
+<title> Home </title>
 </head>
 
     <body>
@@ -40,44 +41,49 @@
         </ul>
         </div>
     </nav>
-        <div class="container">
-        <h1> Title </h1>
-        <p> This is my HTML-CSS homework</p>
-        <p>In this project, the OpenWeatherMap API was used to extract weather data from ~500 cities around the world.
-            The purpose of doing this was to observe the changes in weather conditions as you get further away from the equator. 
-            
-            Once the weather data was collected, it was visualised using Matplotlib. Four visualisations were made, comparing the latitude
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+            <div class="col-7">
+        <h1> How's the weather? </h1>
+        <p><i> Visualising weather data around the globe </i></p>
+        <p>In this project, the OpenWeatherMap API was used to extract weather data from ~500 cities around the world. <br> <br>
+            The purpose of doing this was to observe the changes in weather conditions as you get further away from the equator. This data could then be used to decide what cities would be the best for a holiday 
+            break, depending on your ideal weather conditions. The weather conditions we focused on were wind speed, humidity, temperature and cloudiness. 
+            <br>
+            <br>
+            Once the weather data was collected using the API, it was analysed using Pandas and then visualised using Matplotlib. Four visualisations were made, comparing the latitude of the cities
             against the cloudiness, humidity, windspeed and temperature. 
+            <br>
+            <br>
+            This site showcases these visualisations, with a brief interpretation of the data, as well as presenting the data in a table format.  </p>
 
-            This website showcases these visualisations, as well as brief interpretation of the data, and the data source. 
-        </p>
-        </div>
+            <p>We hope the data is useful for when you plan your next holiday! </p>
+             </div>
         
-        <div class="container">
-            <div class="row py-3">
         
-            <h3>Visualisations</h3>
-        <a target="_blank" href="visualisations/lat_vs_cloudiness.html">
-            <img src="assets/images/lat_vs_cloudiness.png" alt="Lat vs Cloudiness">
-          </a>
+            
+            <div class="col-5">
+                <div class="row">
+                <h3>Visualisations</h3>
+            <a target="_blank" href="visualisations/lat_vs_cloudiness.html">
+                <img src="assets/images/lat_vs_cloudiness.png" alt="Lat vs Cloudiness">
+            </a>
 
-          <a target="_blank" href="visualisations/lat_vs_humidity.html">
-            <img src="assets/images/lat_vs_humidity.png" alt="Lat vs Humidity">
-          </a>
+            <a target="_blank" href="visualisations/lat_vs_humidity.html">
+                <img src="assets/images/lat_vs_humidity.png" alt="Lat vs Humidity">
+            </a>
 
-          <a target="_blank" href="visualisations/lat_vs_temp.html">
-            <img src="assets/images/lat_vs_temp.png" alt="Lat vs Temp">
-          </a>
+            <a target="_blank" href="visualisations/lat_vs_temp.html">
+                <img src="assets/images/lat_vs_temp.png" alt="Lat vs Temp">
+            </a>
 
-          <a target="_blank" href="visualisations/lat_vs_windspeed.html">
-            <img src="assets/images/lat_vs_windspeed.png" alt="Lat vs Windspeed">
-          </a>
-          
+            <a target="_blank" href="visualisations/lat_vs_windspeed.html">
+                <img src="assets/images/lat_vs_windspeed.png" alt="Lat vs Windspeed">
+            </a>
+            </div>
+            </div>
 </div>
 </div>
-      
-       
-        
 
  
 
