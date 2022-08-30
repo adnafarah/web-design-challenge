@@ -1,8 +1,30 @@
-.navbar {
-    color: blue;
+
+body {
+    background-color: #B5E5CF;
 }
 
 .container {
     background-color: #B5E5CF;
+    padding-left: 6px;
+   
 }
 
+a>img {
+    margin-top:20px; 
+    margin-bottom:20px; 
+    margin-left: 60px;
+    padding-top: 6px;
+    padding-right: 20px;
+ }
+
+ @media (max-width: 480px) {
+    
+ }
+
+ img {
+    margin-top:20px;
+}
+
+p {
+    margin-top:40px;
+}
